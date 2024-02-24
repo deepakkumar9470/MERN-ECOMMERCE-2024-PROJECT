@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600;700&family=Nanum+Gothic:wght@400;700&family=Pattaya&family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:rorot {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+}
+html{
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  overflow-x: hidden;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.pagination a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  margin: 0 8px !important;
+  font-size: 20px !important;
+  color: #333 !important;
+  background-color: #f6f6f6 !important;
+  padding: 10px 20px !important;
+  text-decoration: none !important;
+}
+.pagination a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+.pagination .active {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+.loader-dots div {
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.loader-dots div:nth-child(1) {
+  left: 8px;
+  animation: loader-dots1 0.6s infinite;
+}
+.loader-dots div:nth-child(2) {
+  left: 8px;
+  animation: loader-dots2 0.6s infinite;
+}
+.loader-dots div:nth-child(3) {
+  left: 32px;
+  animation: loader-dots2 0.6s infinite;
+}
+.loader-dots div:nth-child(4) {
+  left: 56px;
+  animation: loader-dots3 0.6s infinite;
+}
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@keyframes loader-dots1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes loader-dots3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes loader-dots2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
