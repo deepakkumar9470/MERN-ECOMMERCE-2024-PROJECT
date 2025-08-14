@@ -31,11 +31,11 @@ Upload images using multer.
 Note: We follow MVC pattern, first start the backend then start frontend
 
 1. Home Page with Product Listing, Testimonial
-<img src="https://github.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/blob/main/frontend/public/ecom_1.png" width="600">
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_1.png" width="600">
 
-2. Signup & Login Page
-<img src="https://github.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/blob/main/frontend/public/ecom_2.png" alt="signup page">
+2. Signup & Login Page  
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_2.png" alt="signup page">
 
 3. Shopping Cart Page
-<img src="https://github.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/blob/main/frontend/public/ecom_3.png" alt="shopping Cart Page">
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_3.png" alt="shopping Cart Page">
 
