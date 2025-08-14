@@ -1,8 +1,40 @@
-# React + Vite
+--------Full-Stack E-Commerce Platform with React & Node.js--------
+A complete e-commerce solution featuring a beautiful React frontend with Tailwind CSS and a robust Node.js backend following MVC architecture. Includes product management, shopping cart functionality, and image upload capabilities with MongoDB integration.
+Frontend :-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Go to folder frontend then open terminal and yarn (for installing packages)
+yarn dev (to start the frontend)
 
-Currently, two official plugins are available:
+Features :-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Beautiful ui made with reactjs & tailwindcss.
+Products Listing page (Lists of all products).
+Product Details page (Details of single product).
+Add to cart functionality.
+Remove from cart functionality.
+Checkout (not done due to time constraint).
+
+Backend :-
+
+Go to folder server then open terminal and npm i (for installing packages)
+Set up your mongo db url in .env file
+npm run dev (to start the server)
+
+Features :-
+
+Built server using ES6 features.
+Products Models.
+Product Controller.
+Routes for api.
+Upload images using multer.
+
+Note: We follow MVC pattern, first start the backend then start frontend
+
+1. Home Page with Product Listing, Testimonial
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_1.png" width="600">
+
+2. Signup & Login Page  
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_2.png" alt="signup page">
+
+3. Shopping Cart Page
+<img src="https://raw.githubusercontent.com/deepakkumar9470/MERN-ECOMMERCE-2024-PROJECT/main/frontend/public/ecom_3.png" alt="shopping Cart Page">
